@@ -1,0 +1,17 @@
+CMNT: Example simple_blog script data file
+CMNT: (c) Chris Robson, 2003, released under terms of GNU GPL
+
+SVAR: hdr	=> Simple Blog Example
+SVAR: spiel	=> This is an example of a really simple blog-come-news page, using the simple_blog script. It doesn't have the bells and whistles of some bloggers, but it can be easily driven from a simple text file. Used with a simple through-the-web editor (such as FTPEdit) it should be easy to keep up-to-date.
+SVAR: img	=> dog.gif
+SVAR: col0	=> #808080
+SVAR: col1	=> #D6D7DE
+SVAR: col2	=> #DEE3E7
+
+
+LIST|Title|text
+Today's thought:|I wandered lonely as a cow, with daffydills and such. I wonder if my rents due now. I seem to pay too much.
+And more:|Oh yes, this is a little bit more sensible for a basic text box I think
+And more:|Oh yes, this is a little bit more sensible for a basic text box I think
+And more:|Oh yes, this is a little bit more sensible for a basic text box I think
+And more:|Oh yes, this is a little bit more sensible for a basic text box I think

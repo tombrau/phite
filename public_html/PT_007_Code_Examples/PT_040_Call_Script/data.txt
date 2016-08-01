@@ -1,0 +1,18 @@
+CMNT: Example simple list script data file
+CMNT: Note that the first line of the list 
+CMNT: must contain 'LIST' followed by the seperator
+CMNT: which defaults to ',' if the fourth parameter
+CMNT: has not been suplied 
+LIST|
+Alabama|Montgomery
+Alaska|Juneau
+Arizona |Phoenix
+Arkansas|Little Rock
+California|Sacramento
+Colorado|Denver
+Connecticut|Hartford
+Delaware|Dover
+Florida|Tallahassee
+Georgia|Atlanta
+Hawaii|Honolulu
+Idaho|Boise

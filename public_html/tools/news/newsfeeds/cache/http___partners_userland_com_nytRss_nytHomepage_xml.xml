@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/userland/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2009
+ The New York Times Company</copyright>
+    <lastBuildDate>Mon, 16 Nov 2009 10:30:44 GMT
+</lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>http://graphics.nytimes.com/images/section/NytSectionHeader.gif</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss</link>
+    </image>
+    <item>
+      <title>Drug Makers Raise Prices in Face of Health Care Reform</title>
+      <link>http://www.nytimes.com/2009/11/16/business/16drugprices.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/business/16drugprices.html</guid>
+      <description>Critics say the industry is trying to establish a higher price base before Congress passes legislation that tries to curb drug spending in coming years.</description>
+      <dc:creator>By DUFF WILSON</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:45:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reform and Reorganization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">AARP</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Merck &amp; Company Inc</category>
+    </item>
+    <item>
+      <title>U.S. Asks More From Pakistan in Terror War</title>
+      <link>http://www.nytimes.com/2009/11/16/world/asia/16policy.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/world/asia/16policy.html</guid>
+      <description>The Obama administration warned Pakistan that failing to expand its fight against the Taliban and Al Qaeda would undercut the new strategy and troop increase for Afghanistan.</description>
+      <dc:creator>By ERIC SCHMITT and DAVID E. SANGER</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:46:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pakistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+    </item>
+    <item>
+      <title>Experts Outline Hurdles in Trying to Defend Hasan</title>
+      <link>http://www.nytimes.com/2009/11/16/us/16defend.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/us/16defend.html</guid>
+      <description>Defending the man accused of premeditated murder in the shooting rampage at Fort Hood is the kind of test that many lawyers dread, and that some live for.</description>
+      <dc:creator>By JOHN SCHWARTZ</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:57:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hasan, Nidal Malik</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fort Hood (Tex)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Murders and Attempted Murders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Plea Bargaining</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Capital Punishment</category>
+    </item>
+    <item>
+      <title>For Some Smokers, Even Home Is Off Limits</title>
+      <link>http://www.nytimes.com/2009/11/16/nyregion/16smoke.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/nyregion/16smoke.html</guid>
+      <description>In New York, more landlords are moving to prohibit smoking in their apartment buildings, telling potential tenants they can be evicted if they light up in them.</description>
+      <dc:creator>By C. J. HUGHES</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 10:08:46 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smoking and Tobacco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Renting and Leasing</category>
+    </item>
+    <item>
+      <title>Obama Pushes Rights With Chinese Students</title>
+      <link>http://www.nytimes.com/2009/11/17/world/asia/17shanghai.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/17/world/asia/17shanghai.html</guid>
+      <description>At a town hall meeting, President Obama&#x2019;s answers stood out as a stark snapshot of a young U.S. president&#x2019;s efforts to reach China&#x2019;s youth while not offending its authorities.</description>
+      <dc:creator>By HELENE COOPER and DAVID BARBOZA</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 10:22:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Xinhua</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">China Central Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Shanghai (China)</category>
+    </item>
+    <item>
+      <title>News Analysis: Obama Hobbled in Fight Against Global Warming</title>
+      <link>http://www.nytimes.com/2009/11/16/science/earth/16climate.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/science/earth/16climate.html</guid>
+      <description>President Obama&#x2019;s ambitions are limited by a Congress that is unwilling to move as far or as fast as he would like.</description>
+      <dc:creator>By JOHN M. BRODER</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 08:02:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United Nations Framework Convention on Climate Change</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Relations</category>
+    </item>
+    <item>
+      <title>A Florida Republican Becomes a Right-Wing Target</title>
+      <link>http://www.nytimes.com/2009/11/16/us/politics/16crist.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/us/politics/16crist.html</guid>
+      <description>As governor, Charlie Crist backed President Obama&#x2019;s stimulus plan, and that bipartisan move is endangering his Senate run.</description>
+      <dc:creator>By KATE ZERNIKE</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:48:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Crist, Charlie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">American Recovery and Reinvestment Act (2009)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florida</category>
+    </item>
+    <item>
+      <title>Money Trickles North as Mexicans Help Relatives</title>
+      <link>http://www.nytimes.com/2009/11/16/world/americas/16mexico.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/world/americas/16mexico.html</guid>
+      <description>Some down-and-out families are scraping together what they can to support unemployed loved ones in the U.S.</description>
+      <dc:creator>By MARC LACEY</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:56:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Remittances</category>
+    </item>
+    <item>
+      <title>G.M. Is Said to Soon Begin Paying U.S. Debt</title>
+      <link>http://www.nytimes.com/2009/11/16/business/economy/16gm.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/business/economy/16gm.html</guid>
+      <description>The company, which received $50 billion in taxpayer aid, is expected to make its first payment in late December.</description>
+      <dc:creator>By MICHELINE MAYNARD</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 10:27:30 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">General Motors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bankruptcies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Subprime Mortgage Crisis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Credit</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Reform and Reorganization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United Automobile Workers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Henderson, Frederick A</category>
+    </item>
+    <item>
+      <title>Illinois Site May Be Path to Closing Guant&#xE1;namo</title>
+      <link>http://www.nytimes.com/2009/11/16/us/16gitmo.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/us/16gitmo.html</guid>
+      <description>The idea of sending terrorism suspects to the prison could be a breakthrough in the Obama administration&#x2019;s efforts.</description>
+      <dc:creator>By CHARLIE SAVAGE</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:30:53 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guantanamo Bay Naval Base (Cuba)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Illinois</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Terrorism</category>
+    </item>
+    <item>
+      <title>Law Seeks to Ban Misuse of Genetic Testing</title>
+      <link>http://www.nytimes.com/2009/11/16/business/16genes.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/business/16genes.html</guid>
+      <description>The law would prohibit the use of genetic information in hiring decisions or in determining coverage.</description>
+      <dc:creator>By STEVEN GREENHOUSE</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 05:57:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Tests and Testing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Hiring and Promotion</category>
+    </item>
+    <item>
+      <title>Australian Leader Apologizes for Child Migrants</title>
+      <link>http://www.nytimes.com/2009/11/17/world/asia/17migrants.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/17/world/asia/17migrants.html</guid>
+      <description>Prime Minister Kevin Rudd issued an apology for child migrant programs that forcibly brought an estimated 150,000 British youngsters to the Commonwealth.</description>
+      <dc:creator>By MARK McDONALD</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 07:25:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Youth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rudd, Kevin</category>
+    </item>
+    <item>
+      <title>MSNBC Presses Obama on Campaign Promises</title>
+      <link>http://www.nytimes.com/2009/11/16/business/media/16msnbc.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2009/11/16/business/media/16msnbc.html</guid>
+      <description>MSNBC hosts are calling on the president to keep his campaign promises about health care and other issues.</description>
+      <dc:creator>By BRIAN STELTER</dc:creator>
+      <pubDate>Mon, 16 Nov 2009 05:45:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">MSNBC</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidents and Presidency (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maddow, Rachel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Olbermann, Keith</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Matthews, Chris</category>
+    </item>
+  </channel>
+</rss>

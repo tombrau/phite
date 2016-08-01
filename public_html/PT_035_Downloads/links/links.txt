@@ -1,0 +1,8 @@
+Phite Versions|logo_empty|www.phite.org.au/downloads/phite-V.93.zip|Phite Version 0.93|PHITE, a PHP Site Framework, is released under the GNU GPL. This is the new beta version, wich has a set of extra tools and scripting posibilities
+Phite Versions|logo_empty|www.phite.org.au/downloads/phite-V.92.rar|Phite Version 0.92|PHITE, a PHP Site Framework, is released under the GNU GPL. This is the original version from SourceForge, with the only addition of this download folder.
+Template Power (PHP4)|logo_empty|www.phite.org.au/downloads/TemplatePower(2.0beta).rar|Template Power Version 2.0 Beta|The original version released with Phite
+Template Power (PHP4)|logo_empty|www.phite.org.au/downloads/TemplatePower3.0.2.tar.gz|Template Power Version 3.0.2|This is the upgrade to Version 2, and includes support for database templates.
+Template Power (PHP5)|logo_empty|www.phite.org.au/downloads/TemplatePower3.0.2.1.tar.gz|Template Power Version 3.0.2.1|This is the same as version 3.0.2, except that it is PHP5 compatible
+Spaw Web Editor|logo_empty|www.phite.org.au/downloads/spaw-php-10-gpl.zip|Spaw WEB Editor Control (V1.0)|This is the test version.
+Spaw Web Editor|logo_empty|www.phite.org.au/downloads/spaw-php-11rc1-gpl.zip|Spaw WEB Editor Control (V1.1 RC1)|This is the original version used, and still works great.
+Spaw Web Editor|logo_empty|www.phite.org.au/downloads/spaw-php-2081-gpl.zip|Spaw WEB Editor Control (V2.0.81)|This is the lastest version of the web editor control

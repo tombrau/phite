@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Feed has moved - ABC News (Australian Broadcasting Corporation)</title>
+    <category>Australian Broadcasting Corporation: All content</category>
+    <link>http://www.abc.net.au/news/</link>
+    <language>en-AU</language>
+    <copyright>Copyright 2011, Australian Broadcasting Corporation. All Rights Reserved.</copyright>
+    <pubDate>Sun, 22 May 2011 09:31:00 +1000</pubDate>
+    <lastBuildDate>Sun, 22 May 2011 09:31:00 +1000</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <managingEditor>ABC Senior Editor</managingEditor>
+    <item>
+      <title>Feed has moved</title>
+      <link>http://www.abc.net.au/news/feeds/rss/</link>
+      <description>
+        <![CDATA[
+        This feed has moved to a new location. Please update your feed reader. A directory of ABC News feeds is available at http://www.abc.net.au/news/feeds/rss/
+        ]]>
+      </description>
+      <pubDate>Sun, 22 May 2011 09:31:00 +1000</pubDate>
+      <guid isPermaLink="true">http://www.abc.net.au/news/feeds/rss/</guid>
+    </item>
+  </channel>
+</rss>

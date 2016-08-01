@@ -1,0 +1,6 @@
+funny|http://www.theonion.com|The Onion|America's finest News-Source
+weird|http://www.zombo.com|Zombo.com|Pure enlightenment
+news|http://www.cnn.com|CNN|Mainstream news
+cool|http://www.php.net|PHP|Cool web scripting language
+funny|http://www.fatvegetarian.com|The Fat Vegetarian|Naked Vegetables!
+huh|http://www.richgiving.com|RichGiving|Learning to give more meaningfully

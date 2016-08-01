@@ -1,0 +1,18 @@
+CMNT: Example simple_quiz script data file
+CMNT: (c) Chris Robson, 2003, released under terms of GNU GPL
+
+SVAR: hdr	=> Exactly what Kind Of Manager Are You?
+SVAR: spiel	=> We all know that managers are animals, but what kind are you? Fill in this simple quiz to find out:
+SVAR: neg_pic	=> cat.gif
+SVAR: pos_pic	=> dog.gif
+SVAR: neg_text	=> Your management style is that of a cat: Arrogant and unpredictable.
+SVAR: pos_text	=> Your management style is that of a dog: Loyal but dumb.
+
+LIST|Question|Weight
+I often fall asleep in the sunny part of my office|-1
+Colleagues are often commenting on my wet nose|1
+I have been known to hump my boss's leg|1
+I often bring dead things in as gifts for my co-workers|-1
+I sometimes cough up fur-balls at meetings|-1
+I feel it is appropriate to greet customers by sniffing their butt|1
+I've been known to chase trucks|1

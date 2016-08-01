@@ -1,0 +1,52 @@
+PHITE 0.93 Release: 11/11/09 
+    * Added Script capability
+	  * Cleaned up some functions
+	  * Added tools (spaw editor, form mail)
+	  * prettier list function
+	  * Added setup script	  
+
+PHITE 0.92 Release: 08/17/02 *Bugfix/Robustness*
+          * Removed vestigial statements
+          * Fixed Netscape issue with spaces in filenames
+          * Now works with register_globals off (for future PHP compatibility)
+          * Bad page or subpage will show ERROR_badpage.inc text in current skin
+          * Bad sitesig or skin now handled gracefully
+          * Fixed case sensitivity issues
+          * Never assumes/uses unset variable (All Errors can be on)
+          * Paths in faked GET variables disallowed
+
+PHITE 0.9 Release: 01/11/02
+
+	  * Generalized Block and Element code and made user-definable
+	  * BODY is now a regular block
+	  * Added META, FOOTER and PRINT_FRIENDLY elements
+	  * Added CENTER blocks
+	  * Made file naming conventions consistent (now BODY_name.inc)
+	  * All snippets can have PHP through output buffering
+	  * All filename tests now case insensitive
+	  * Modified PHITE_vars format (GET and POST no longer have prepended string
+	  * Added redirect capability
+	  * GPL License added
+
+PHITE Beta-1 Release: *Development*
+
+	  * Added dynamic 'skinning' capability and skin_body.inc
+	  * Generalized box generation code
+	  * Built 'acquisition' method for boxes
+	  * Links may be made to boxes not in left-nav (e.g. with 'XX_' sigs)
+	  * Cleaned up some file code
+
+PHITE Alpha-1 Release: 12/31/01
+
+	  * Site framework system builds complete site from one HTML .tpl file
+	  * Site structure determined by directory structure
+	  * Supports multi-site through file 'signatures'
+	  * Main page, pages, sub-page structure automatically detected
+	  * Pages can have {anything_}body.inc containing text, HTML or PHP
+	  * Pages can have multiple Right boxes RB_{sort_string}_title.inc
+	  * Top level navigation automatically generated
+	  * sub-page navigation appears with parent page (may be overriden)
+	  * Sort-order and titles extracted from .inc filenames
+	  * Simple gallery_body.inc and environment_body.inc included
+	  * Environment and call variables passed on through PHITE_vars[] global
+	  * In use at www.fatvegetarian.com 

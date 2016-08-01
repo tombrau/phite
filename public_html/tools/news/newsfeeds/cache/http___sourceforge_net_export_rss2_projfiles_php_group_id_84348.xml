@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:files="https://sourceforge.net/api/files.rdf#" xmlns:media="http://video.search.yahoo.com/mrss/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:sf="https://sourceforge.net/api/sfelements.rdf#" version="2.0">
+  <channel xmlns:files="https://sourceforge.net/api/files.rdf#" xmlns:media="http://video.search.yahoo.com/mrss/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:sf="https://sourceforge.net/api/sfelements.rdf#">
+    <title>zFeeder</title>
+    <link>https://sourceforge.net</link>
+    <description><![CDATA[Files from zFeeder Simple, customizable, PHP feedreader (aggregator) to integrate news from others RSS syndication pages on your website, intranet, desktop or WAP (wml) site. It can be integrated with other CMS or weblog management systems. Check homepage to review feature]]></description>
+    <pubDate>Sun, 31 Jul 2016 21:36:03 UT</pubDate>
+    <managingEditor>noreply@sourceforge.net (SourceForge.net)</managingEditor>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.6/zfeeder-1.6.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.6/zfeeder-1.6.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.6/zfeeder-1.6.zip/download</guid>
+      <pubDate>Sat, 24 Apr 2004 15:16:09 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.6/zfeeder-1.6.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">502773</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">Zip archive data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.6/zfeeder-1.6.zip/download" filesize="87591"><media:hash algo="md5">bf9ed84d87b42a2ced3f6190f39a3951</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.6/zfeeder-1.6.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.6/zfeeder-1.6.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.6/zfeeder-1.6.tar.gz/download</guid>
+      <pubDate>Sat, 24 Apr 2004 14:08:45 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.6/zfeeder-1.6.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">502737</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.6/zfeeder-1.6.tar.gz/download" filesize="51699"><media:hash algo="md5">e1edddd9538381e2552905c86440e775</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder Contributions/Configurable Encodings/zfeeder_configurable_encodings.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder%20Contributions/Configurable%20Encodings/zfeeder_configurable_encodings.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder%20Contributions/Configurable%20Encodings/zfeeder_configurable_encodings.zip/download</guid>
+      <pubDate>Sun, 18 Apr 2004 12:59:12 UT</pubDate>
+      <description><![CDATA[/zFeeder Contributions/Configurable Encodings/zfeeder_configurable_encodings.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">498969</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">PHP script text (Zip archive data)</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder%20Contributions/Configurable%20Encodings/zfeeder_configurable_encodings.zip/download" filesize="8369"><media:hash algo="md5">0cc5e3e7d7ce87fe71a087752df40513</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.5/zfeeder-1.5.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.5/zfeeder-1.5.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.5/zfeeder-1.5.tar.gz/download</guid>
+      <pubDate>Sun, 18 Apr 2004 12:30:20 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.5/zfeeder-1.5.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">498945</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.5/zfeeder-1.5.tar.gz/download" filesize="48800"><media:hash algo="md5">d7f35280cbd10d46b17a0a3f4286f738</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.5/zfeeder-1.5.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.5/zfeeder-1.5.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.5/zfeeder-1.5.zip/download</guid>
+      <pubDate>Sun, 18 Apr 2004 12:29:56 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.5/zfeeder-1.5.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">498946</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">Zip archive data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.5/zfeeder-1.5.zip/download" filesize="80780"><media:hash algo="md5">74c0c61d04272f760280be1248c1c667</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.4/zfeeder-1.4.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.4/zfeeder-1.4.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.4/zfeeder-1.4.tar.gz/download</guid>
+      <pubDate>Tue, 24 Feb 2004 22:54:13 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.4/zfeeder-1.4.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">469653</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.4/zfeeder-1.4.tar.gz/download" filesize="46638"><media:hash algo="md5">f5b0036a5758ddc164794cf9759b8ede</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.4/zfeeder-1.4.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.4/zfeeder-1.4.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.4/zfeeder-1.4.zip/download</guid>
+      <pubDate>Tue, 24 Feb 2004 22:52:45 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.4/zfeeder-1.4.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">469652</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">Zip archive data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.4/zfeeder-1.4.zip/download" filesize="75655"><media:hash algo="md5">d8cc8f07e9da3888221d6cb3014257cb</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.3/zfeeder-1.3.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.3/zfeeder-1.3.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.3/zfeeder-1.3.zip/download</guid>
+      <pubDate>Thu, 12 Feb 2004 11:29:58 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.3/zfeeder-1.3.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">462636</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">Zip archive data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.3/zfeeder-1.3.zip/download" filesize="64646"><media:hash algo="md5">891197b55999543eab2811ba0b9bcfd8</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.3/zfeeder-1.3.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.3/zfeeder-1.3.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.3/zfeeder-1.3.tar.gz/download</guid>
+      <pubDate>Thu, 12 Feb 2004 11:30:00 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.3/zfeeder-1.3.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">462635</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.3/zfeeder-1.3.tar.gz/download" filesize="39058"><media:hash algo="md5">7ff9dc87a0f334372d7fad072d52ad19</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.2/zfeeder-1.2.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.2/zfeeder-1.2.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.2/zfeeder-1.2.zip/download</guid>
+      <pubDate>Mon, 26 Jan 2004 14:44:34 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.2/zfeeder-1.2.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">452888</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">Zip archive data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.2/zfeeder-1.2.zip/download" filesize="56511"><media:hash algo="md5">04fd5a333ba4523cb9fadddd6d73379a</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.2/zfeeder-1.2.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.2/zfeeder-1.2.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.2/zfeeder-1.2.tar.gz/download</guid>
+      <pubDate>Mon, 26 Jan 2004 14:44:45 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.2/zfeeder-1.2.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">452887</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.2/zfeeder-1.2.tar.gz/download" filesize="34530"><media:hash algo="md5">0305e1e7bf69fdfc9534ae9fb4ccd2ff</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.0/zfeeder-1.0.tar.gz]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.0/zfeeder-1.0.tar.gz/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.0/zfeeder-1.0.tar.gz/download</guid>
+      <pubDate>Thu, 02 Oct 2003 10:26:38 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.0/zfeeder-1.0.tar.gz]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">393419</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">POSIX tar archive</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-gzip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.0/zfeeder-1.0.tar.gz/download" filesize="21726"><media:hash algo="md5">d08e5a0f88a6af976c75e1b662186700</media:hash></media:content>
+    </item>
+    <item>
+      <title><![CDATA[/zFeeder/zFeeder 1.0/zfeeder-1.0.zip]]></title>
+      <link>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.0/zfeeder-1.0.zip/download</link>
+      <guid>https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.0/zfeeder-1.0.zip/download</guid>
+      <pubDate>Thu, 02 Oct 2003 10:26:35 UT</pubDate>
+      <description><![CDATA[/zFeeder/zFeeder 1.0/zfeeder-1.0.zip]]></description>
+      <files:sf-file-id xmlns:files="https://sourceforge.net/api/files.rdf#">393420</files:sf-file-id>
+      <files:extra-info xmlns:files="https://sourceforge.net/api/files.rdf#">Zip archive data</files:extra-info>
+      <media:content xmlns:media="http://video.search.yahoo.com/mrss/" type="application/x-zip" url="https://sourceforge.net/projects/zvonnews/files/zFeeder/zFeeder%201.0/zfeeder-1.0.zip/download" filesize="35719"><media:hash algo="md5">c2914e6d7399ef882ca7d696417df51b</media:hash></media:content>
+    </item>
+  </channel>
+</rss>
