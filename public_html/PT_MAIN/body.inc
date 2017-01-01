@@ -28,4 +28,4 @@ Attributes of PHITE are:
 </li></ul>
 I hope that you find PHITE interesting and useful. PHITE is released under
 the GPL, and I welcome updates and modifications.<p>
-</p><center><i>Chris Robson, Tom Brennfleck<br></i></center>
+</p><center><i>Chris Robson, Tom Brennfleck, Jarod Brennfleck</i></center>

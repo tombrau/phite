@@ -185,7 +185,7 @@ $notify = true;
 $email = 'tombr@samsa.com.au';
 
 // Your site address
-$domain = 'www.phite.org';
+$domain = 'phite';
 
 // Total visitor counts that are regarded as milestones
 $milestones = array(1, 10, 25, 50, 75, 100, 250, 500, 750, 1000, 2500, 5000, 7500, 10000, 25000, 50000, 75000, 100000, 250000, 500000, 750000, 1000000, 1500000, 2000000, 2500000, 3000000, 3500000, 4000000, 4500000, 5000000, 10000000);
@@ -548,7 +548,7 @@ foreach ($detail as $line)
 	if ($stored_day == $day && $stored_month == $month && $stored_year == $year)
 	{
 		// Write back into detail file
-		fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\n");
+		fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\r\n");
 
 		// Increment the Today count
 		$today++;
@@ -564,7 +564,7 @@ foreach ($detail as $line)
 	elseif ($stored_day == $temp_day && $stored_month == $temp_month && $stored_year == $temp_year)
 	{
 		// Write back into detail file
-		fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\n");
+		fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\r\n");
 
 		// Increment the Yesterday count
 		$yesterday++;
@@ -575,7 +575,7 @@ foreach ($detail as $line)
 if (!$match || $match && !$match_today)
 {
 	// Write todays visit into detail file
-	fwrite($handle_detail, "$ip|$time|$day|$month|$year\n");
+	fwrite($handle_detail, "$ip|$time|$day|$month|$year\r\n");
 
 	// Increment the Online and Today count
 	$online++;
