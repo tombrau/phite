@@ -14,7 +14,7 @@
 
 #change these to setup the mailer to address and subject lines
 #or go to the mailer php file and change them there
-  $mailer_toAddress = "tombr@phite.org.au";
+  $mailer_toAddress = "your_email@domain.com";
   $mailer_subject = "My Subject Line";
   $mailer_thankyou = "thankyou_page.html";
   

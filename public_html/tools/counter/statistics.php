@@ -497,77 +497,82 @@ $handle_detail = fopen($file_detail, "w");
 foreach ($detail as $line)
 {
 	// Split and store array values
-	list($stored_ip, $stored_time, $stored_day, $stored_month, $stored_year) = explode("|", $line);
+	
+	if ($line == '') {
+	} else {
+		list($stored_ip, $stored_time, $stored_day, $stored_month, $stored_year) = explode("|", $line);
 
-	// Determine yesterday's correct date
-	$temp_day = $day - 1;
-	$temp_month = $month;
-	$temp_year = $year;
+		// Determine yesterday's correct date
+		$temp_day = $day - 1;
+		$temp_month = $month;
+		$temp_year = $year;
 
-	if ($temp_day == 0)
-	{
-		$temp_month--;
-		if ($temp_month == 0)
+		if ($temp_day == 0)
 		{
-			$temp_month = 12;
-			$temp_year--;
+			$temp_month--;
+			if ($temp_month == 0)
+			{
+				$temp_month = 12;
+				$temp_year--;
+			}
+			switch ($temp_month)
+			{
+				case 1: 	$temp_day = 31; break;
+				case 2: 	$temp_day = 28; break;
+				case 3: 	$temp_day = 31; break;
+				case 4: 	$temp_day = 30; break;
+				case 5: 	$temp_day = 31; break;
+				case 6: 	$temp_day = 30; break;
+				case 7: 	$temp_day = 31; break;
+				case 8: 	$temp_day = 31; break;
+				case 9: 	$temp_day = 30; break;
+				case 10:	$temp_day = 31; break;
+				case 11:	$temp_day = 30; break;
+				case 12:	$temp_day = 31; break;
+			}
 		}
-		switch ($temp_month)
+
+		// If the users ip matches a stored ip...
+		if ($stored_ip == $ip)
 		{
-			case 1: 	$temp_day = 31; break;
-			case 2: 	$temp_day = 28; break;
-			case 3: 	$temp_day = 31; break;
-			case 4: 	$temp_day = 30; break;
-			case 5: 	$temp_day = 31; break;
-			case 6: 	$temp_day = 30; break;
-			case 7: 	$temp_day = 31; break;
-			case 8: 	$temp_day = 31; break;
-			case 9: 	$temp_day = 30; break;
-			case 10:	$temp_day = 31; break;
-			case 11:	$temp_day = 30; break;
-			case 12:	$temp_day = 31; break;
+			$match = true;
+
+			// And the user is already visited today...
+			if ($stored_day == $day && $stored_month == $month && $stored_year == $year)
+			{
+				$match_today = true;
+
+				// Update time of visit
+				$stored_time = $time;
+			}
 		}
-	}
 
-	// If the users ip matches a stored ip...
-	if ($stored_ip == $ip)
-	{
-		$match = true;
-
-		// And the user is already visited today...
+		// If stored visit was today...
 		if ($stored_day == $day && $stored_month == $month && $stored_year == $year)
 		{
-			$match_today = true;
+			// Write back into detail file
+			fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\r\n");
 
-			// Update time of visit
-			$stored_time = $time;
+			// Increment the Today count
+			$today++;
+
+			// If the user was online within the last 15 minutes...
+			if ($time < $stored_time + ($minutes * 60))
+			{
+				// Increment the Online count
+				$online++;
+			}
 		}
-	}
-
-	// If stored visit was today...
-	if ($stored_day == $day && $stored_month == $month && $stored_year == $year)
-	{
-		// Write back into detail file
-		fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\r\n");
-
-		// Increment the Today count
-		$today++;
-
-		// If the user was online within the last 15 minutes...
-		if ($time < $stored_time + ($minutes * 60))
+		// If stored visit was yesterday...
+		elseif ($stored_day == $temp_day && $stored_month == $temp_month && $stored_year == $temp_year)
 		{
-			// Increment the Online count
-			$online++;
-		}
-	}
-	// If stored visit was yesterday...
-	elseif ($stored_day == $temp_day && $stored_month == $temp_month && $stored_year == $temp_year)
-	{
-		// Write back into detail file
-		fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\r\n");
+			
+			// Write back into detail file
+			fwrite($handle_detail, "$stored_ip|$stored_time|$stored_day|$stored_month|$stored_year\r\n");
 
-		// Increment the Yesterday count
-		$yesterday++;
+			// Increment the Yesterday count
+			$yesterday++;
+		}
 	}
 }
 

@@ -23,7 +23,7 @@ Send all correspondence to: <a href=
     <br>
   </li>
   <li>
-    <a href="http://sourceforge.net/forum/?group_id=46499" target=
+    <a href="https://github.com/tombrau/phite/wiki" target="_blank" target=
     "_blank">Discussion forums</a>
   </li>
 </ul>

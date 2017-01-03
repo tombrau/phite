@@ -11,6 +11,8 @@ main script. The substitutions included in the distribution are:
 $namechars['__que'] = "?";
 $namechars['__col'] = ":";
 $namechars['__com'] = ",";
+# 20170103: added '/' character substitution
+$namechars['__fsl'] = "/";
 </font></pre><font size="2"></font><p>
 <b>Multiple Sites:</b> You can have multiple 'sites' served by the same root script.
 The site signatures ensure that there is no ambiguity as to what pages belong to what
@@ -20,13 +22,3 @@ The standard distribution comes with a single site defined:
 </p><pre><font size="2">$sites['PT'] = array('name'=&gt;"PHITE","homepagename"=&gt;'Home',
                      'def_skin'=&gt;'YellowNBlue');
 </font></pre><font size="2"></font>
-Simply add further sites by repeating this line with the new information.<p>
-<b>Security:</b> PHITE does not itself interpret any arbitrary user input. You should,
-however, make sure that any code snippets you have sufficiently scrub user input.<br>
-As with all PHP scripts arbitrary variables can be set through GET. This is not a
-problem with the current script, and variables must be explicitly unpacked in code
-snippets. Be aware, however, that PHITE can be made to execute any .inc file that is
-accessible to PHP. You should make sure that there are no potentially damaging .inc
-files accessible.<br>
-It is good practice to drop a blank index.html file in each directory to deter people
-from getting directory listings.</p><p></p>

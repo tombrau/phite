@@ -1,1 +1,1 @@
-http://sourceforge.net/forum/?group_id=46499" target="_blank
+https://github.com/tombrau/phite/wiki" target="_blank 

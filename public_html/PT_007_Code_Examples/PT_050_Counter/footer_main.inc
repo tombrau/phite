@@ -4,7 +4,7 @@
     <td width="229" height="45" align="center">
       <span>
         <font color="#FFFFFF" size="1" face="Arial, Helvetica, sans-serif">
-        © Chris Robson 2002, Tom Brennfleck 2009
+        Tom Brennfleck 2009, Jarod Brennfleck 2016
         </font>
       </span>
     </td>

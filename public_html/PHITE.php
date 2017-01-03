@@ -85,6 +85,8 @@
   $namechars['__que'] = "?";
   $namechars['__col'] = ":";
   $namechars['__com'] = ",";
+# $RNote 20170103: added '/' character substitution
+  $namechars['__fsl'] = "/";
   
 #Subdirectory behavior. alwaysshowsubs makes all subdirectories appear in the
 #navigation block always. namefromsubs determines whether the pagename is derived
@@ -389,6 +391,8 @@ function debugvar($var)
   $PHITE_vars["PHITE_skin"] = $skin;
   //added - 11/11/2009 - runscript
   $PHITE_vars["PHITE_runscript"] = $run_script;
+  
+  
   
 # Load GET and POST variables into array for included scripts, and build
 # PHITE_fullcallself variable to be able to re-call pages

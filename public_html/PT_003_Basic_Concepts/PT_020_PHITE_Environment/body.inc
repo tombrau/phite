@@ -1,14 +1,14 @@
 <span style="font-weight: bold;">Phite Environment</span><br><br>PHP snippets in PHITE are 'require'd within a function so that there is no chance
 of namespace clash. The environment is imported into a PHP snippet by starting off
 with:<p>
-<b>&lt;?php global $PHITE_vars; ?&gt;</b></p><p>
+			<b>&lt;?php global $PHITE_vars; ?&gt;</b></p><p>
 The $PHITE_vars[] array holds all of the variables you should need to write a script.
 GET and POST variables are included in the array using their names as key, so GET
 variable 'x' would be accessible as $PHITE_vars['x']. POST variables over-ride GET
 variables where there is a name clash.</p><p>
 PHITE also provides some important variables of its own. These variables all commence
 with 'PHITE_' to avoid name clashes. The PHITE_ variables are:<br>
-</p><pre><font size="2">
+			</p><pre><font size="2">
 $PHITE_vars["PHITE_sitename"]     # Name of the current site
 $PHITE_vars["PHITE_siteroot"]     # Root URL of the site
 $PHITE_vars["PHITE_sitesig"]      # Signature string for the current site
@@ -23,6 +23,14 @@ $PHITE_vars["PHITE_scriptdir"]    # The standard dir. for scripts (relative)
 $PHITE_vars["PHITE_page"]         # Full name of current page
 $PHITE_vars["PHITE_subpage"]      # Full name of current subpage
 $PHITE_vars["PHITE_skin"]         # Filename of current 'skin' .tpl file
-</font></pre><font size="2"></font>
+ //added - 11/11/2009 - runscript
+$PHITE_vars["PHITE_runscript"] 	  # file name of script to run
+				</font></pre><font size="2"></font>
 Note that with these variables it should be easy to write script snippets without
 any hard-coded URLs or directories.<br>
+
+
+
+
+
+

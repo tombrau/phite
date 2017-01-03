@@ -46,7 +46,7 @@
 # def_sitesig is the default 'signature' for your site. Best kept short.
 
 # $siteroot 		= "http://www.yoursitehere.com/PHITE_R092";	 # Safest way
-  $siteroot			= ".";								 # Relative (faster)
+  $siteroot		= ".";								 # Relative (faster)
   $def_sitesig 		= "PT";
 
 #PHITE can drive several 'sites' from one script. Each site needs a signature, a
@@ -85,6 +85,8 @@
   $namechars['__que'] = "?";
   $namechars['__col'] = ":";
   $namechars['__com'] = ",";
+# $RNote 20170103: added '/' character substitution
+  $namechars['__fsl'] = "/";
   
 #Subdirectory behavior. alwaysshowsubs makes all subdirectories appear in the
 #navigation block always. namefromsubs determines whether the pagename is derived
@@ -93,11 +95,100 @@
   $alwaysshowsubs 	= false;
   $namefromsubs		= true; 
 
+#set to true if you want to run the new script version, not that this has not been tested.
+  $run_script = true;
+    
 #-------------------------------------------------------------------------------
 #               No need to change anything below this line
 #-------------------------------------------------------------------------------
 # FUNCTIONS
 #-------------------------------------------------------------------------------
+
+# Function PHITE_script() provides a standard way to call a script from an element
+# or a block. The function takes one to four arguments. The first argument is
+# a string giving the name of the script to be called, which must be a .inc file
+# in PHITE's Script directory. The second argument is optional, but if it exists it
+# is a string giving the path (relative to the .inc file that this function
+# is called from) for a script data file (including extension).
+# The third argument is an optional array that will be extracted to build a set of variables
+# (where the variable name is the key and the value is the value).
+# The script data file may contain variables, that will be set, and/or a LIST of
+# records that will be extracted into the array $PHITE_listdata[][]. See the examples to
+# understand the format of the standard script data file.
+# The reason for the extensive use of $PHITE_ is to prevent any name clash in scripts.
+# Do not create YOUR OWN variables in your scripts that start with $PHITE_
+# The script itself can just reference any of the variables by name, and/or use the
+# prepared $PHITE_listdata[][] array. No global declarations are necessary.
+function PHITE_script($PHITE_scr_name,$PHITE_scr_data_file="",$PHITE_scr_vars=array(),$data_delim=",")
+{
+$PHITE_scr_data_delim=$data_delim;
+
+         global $PHITE_vars;
+        
+         if ($PHITE_vars["PHITE_runscript"] == false) {
+           echo 'Run Scripts has not been set';
+           return;
+         }         
+         
+         $PHITE_script=$PHITE_vars["PHITE_scriptdir"].'/'.$PHITE_scr_name.'.inc';
+         
+         if (!file_exists($PHITE_script))
+         {
+           echo 'PHITE Error: No such script file -- '.$PHITE_scr_name;
+           return;
+         }
+         $PHITE_csv_file=$PHITE_vars["PHITE_selfdir"].'/'.$PHITE_scr_data_file;
+
+         if ($PHITE_scr_data_file!='' && !file_exists($PHITE_csv_file))
+         {
+           echo 'PHITE Error: No such script data file -- '.$PHITE_csv_file;
+           return;
+         } else if ($PHITE_scr_data_file!='')
+         {
+         	 $PHITE_csv_contents = file($PHITE_csv_file);
+           $PHITE_list=false;
+	         while (list ($PHITE_line_num, $PHITE_line) = each ($PHITE_csv_contents))
+	         {
+                $PHITE_line=trim($PHITE_line);
+
+                if ($PHITE_line!='' && !$PHITE_list)
+                {
+                   $PHITE_left=strtoupper(substr($PHITE_line,0,4));
+                   $PHITE_right=trim(substr($PHITE_line,5));
+                   switch ($PHITE_left)
+                   {
+                      case 'SVAR':          # String Variable
+                           $PHITE_varnam=trim(substr($PHITE_right,0,strpos($PHITE_right,'=>')));
+                           $PHITE_varval=trim(substr($PHITE_right,strpos($PHITE_right,'=>')+2));
+                           $$PHITE_varnam=$PHITE_varval;
+                           break;
+                      case 'NVAR':          # Numeric Variable
+                           break;
+                      case 'IARR':          # Indexed Array
+                           break;
+                      case 'AARR':          # Associative Array
+                           break;                      
+                      case 'LIST':          # Start of Record list
+                           $PHITE_scr_data_delim=$PHITE_line{4};
+                           $PHITE_fields=explode($PHITE_scr_data_delim,$PHITE_right);           # Not yet used
+                           $PHITE_list=true;
+                           break;
+                     case 'CMNT:':          #Comment ignored
+                           break; 
+                   }
+                }
+                else
+                {
+	                if ($PHITE_line!='') { 
+                    $PHITE_listdata[]=explode($PHITE_scr_data_delim,$PHITE_line);
+
+                  }
+                }
+             }
+         }
+         if ($PHITE_scr_vars) extract($PHITE_scr_vars);
+         include $PHITE_script;
+}
 
 # Function to return ordered array of filename/name pairs which meet the
 # criteria SIG_sort_some_name.ext (which would be key:"SIG_sort_Some_name.ext",
@@ -223,15 +314,15 @@ function debugvar($var)
 #-------------------------------------------------------------------------------
 
 # Unpack all needed variables so script works with register_globals set to 'off'
-  $PHP_SELF=$HTTP_SERVER_VARS['PHP_SELF'];
-  if (isset($HTTP_GET_VARS['page'])) $page=$HTTP_GET_VARS['page'];
-  if (isset($HTTP_POST_VARS['page'])) $page=$HTTP_POST_VARS['page'];
-  if (isset($HTTP_GET_VARS['subpage'])) $subpage=$HTTP_GET_VARS['subpage'];
-  if (isset($HTTP_POST_VARS['subpage'])) $subpage=$HTTP_POST_VARS['subpage'];
-  if (isset($HTTP_GET_VARS['sitesig'])) $sitesig=$HTTP_GET_VARS['sitesig'];
-  if (isset($HTTP_POST_VARS['sitesig'])) $sitesig=$HTTP_POST_VARS['sitesig'];
-  if (isset($HTTP_GET_VARS['skin'])) $skin=$HTTP_GET_VARS['skin'];
-  if (isset($HTTP_POST_VARS['skin'])) $skin=$HTTP_POST_VARS['skin'];
+  $PHP_SELF=$_SERVER['PHP_SELF'];
+  if (isset($_GET['page'])) $page=$_GET['page'];
+  if (isset($_POST['page'])) $page=$_POST['page'];
+  if (isset($_GET['subpage'])) $subpage=$_GET['subpage'];
+  if (isset($_POST['subpage'])) $subpage=$_POST['subpage'];
+  if (isset($_GET['sitesig'])) $sitesig=$_GET['sitesig'];
+  if (isset($_POST['sitesig'])) $sitesig=$_POST['sitesig'];
+  if (isset($_GET['skin'])) $skin=$_GET['skin'];
+  if (isset($_POST['skin'])) $skin=$_POST['skin'];
   
 # Set site to default values if not set through GET, POST, Cookie or session
   if (!isset($sitesig)) $sitesig = $def_sitesig;
@@ -298,17 +389,21 @@ function debugvar($var)
   if (isset($page)) $PHITE_vars["PHITE_page"] = $page;
   if (isset($subpage)) $PHITE_vars["PHITE_subpage"] = $subpage;
   $PHITE_vars["PHITE_skin"] = $skin;
-
+  //added - 11/11/2009 - runscript
+  $PHITE_vars["PHITE_runscript"] = $run_script;
+  
+  
+  
 # Load GET and POST variables into array for included scripts, and build
 # PHITE_fullcallself variable to be able to re-call pages
   $c='?';  
-  if (isset($HTTP_GET_VARS)) while ($var = each($HTTP_GET_VARS))
+  if (isset($_GET)) while ($var = each($_GET))
   {
     $PHITE_vars[$var['key']] = $var['value'];
 	$PHITE_vars["PHITE_fullcallself"].= $c.$var['key'].'='.$var['value'];
 	$c='&';
   } 
-  if (isset($HTTP_POST_VARS)) while ($var = each($HTTP_POST_VARS))
+  if (isset($_POST)) while ($var = each($_POST))
   {
     $PHITE_vars[$var['key']] = $var['value'];
 	$PHITE_vars["PHITE_fullcallself"].= $c.$var['key'].'='.$var['value'];

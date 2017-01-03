@@ -72,7 +72,11 @@
   <tr bgcolor="#006699"> 
 	<td width="110">&nbsp;</td>
 	<td align="center" valign="middle"><font color="#FFFFFF" size="1" face="Arial, Helvetica, sans-serif">
-	{FOOTER}</font></td>
+	<!-- $NOTE: Uncomment to show footer on web page 
+	{FOOTER}
+	-->
+	{FOOTER}
+	</font></td>
 	<td width="200">&nbsp;</td>
   </tr>
 </table>

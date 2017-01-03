@@ -1,6 +1,11 @@
 <?php 
 echo "<br><h3>$hdr</h3>";
 
+if (isset($PHITE_vars['submitted'])) { 
+} else { 
+	$PHITE_vars['submitted'] = "0"; 
+}
+
 if (!$PHITE_vars['submitted'])
 {
    echo "<font size=3><b>$spiel</b></font><br>";

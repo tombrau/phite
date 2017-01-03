@@ -21,11 +21,11 @@ print("</blockquote>");
 	 $linkfile = 'links.txt'; # Name of links text file to read
 	 $linksdir = 'links';	  # Sub-directory containing links file and icons
 	 $sep = '|'; 		 	  # Separator character used in links file
+	 $last_cat = '';
 	 
 	 $wkdir=$PHITE_vars['PHITE_selfdir'].'/'.$linksdir;
 	 $contents = file($wkdir.'/'.$linkfile);
-	 while (list ($line_num, $line) = each ($contents))
-	 {
+	 while (list ($line_num, $line) = each ($contents)) {
 	     $line=htmlspecialchars ($line);
 	     $parts=explode($sep,$line);
 		 $cat = $parts[0];

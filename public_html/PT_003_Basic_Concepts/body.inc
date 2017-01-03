@@ -1,9 +1,14 @@
-<span style="font-weight: bold;">Basic Concepts</span><br><br>A PHITE site is automatically built from the directory structure and contents
+<span style="font-weight: bold;">Basic Concepts</span>
+<br>
+	<br>A PHITE site is automatically built from the directory structure and contents
 below the directory which holds the PHITE.php script itself.<br>
 A key concept is that of the <i>site signature</i>. This is a small string of letters
 and numbers which is used to identify the directories which 'belong' to this site.
 Consider the following example, where the site signature has been set to 'PT': <br>
-<center><img src="http://www.phite.org/images/PHITE_dirs.gif"></center><br>
+				<center>
+					<img src="http://www.phite.org/images/PHITE_dirs.gif">
+					</center>
+					<br>
 Note that there could be other directories around, but if they don't start with the
 signature they are ignored. In this example we have the 'home' page, which is in
 the special directory PT_MAIN (every site must have a {sig}_MAIN directory). This

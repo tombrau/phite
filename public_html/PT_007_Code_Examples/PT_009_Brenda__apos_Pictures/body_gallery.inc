@@ -14,7 +14,7 @@ print("<TR>");
 
 //change to the location of your image folder
 //$image_dir=$PHITE_vars['PHITE_selfdir'];
-$image_dir='./images/gallery_1';
+$image_dir='./images/gallerys/gallery_1';
 $d=dir($image_dir);
 
 while ($file=$d->read())
