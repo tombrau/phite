@@ -5,3 +5,4 @@ Template Power (PHP4)|logo_empty|www.phite.org.au/downloads/TemplatePower3.0.2.t
 Template Power (PHP5)|logo_empty|www.phite.org.au/downloads/TemplatePower3.0.2.1.tar.gz|Template Power Version 3.0.2.1|This is the same as version 3.0.2, except that it is PHP5 compatible
 Template Power (Misc)|logo_empty|www.phite.org.au/downloads/TemplatePower-manual_en.tar.gz|Template Power Manual|Template Power Manual
 Template Power (Misc)|logo_empty|www.phite.org.au/downloads/TPexamples.tar.gz|Template Power Examples|Template Power Examples
+WebForm Designer|logo_empty|www.phite.org.au/downloads/WFDInstall.zip|Web Form Designer|Web Form Designer
